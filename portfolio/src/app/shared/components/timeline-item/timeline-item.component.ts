@@ -4,16 +4,17 @@ import { Component, Input } from '@angular/core';
   selector: 'app-timeline-item',
   standalone: true,
   template: `
-    <div class="border-b border-line pb-4">
-      <div class="flex items-center justify-between">
-        <div class="font-medium">{{ role }} — {{ company }}</div>
-        <div class="text-xs text-sub">{{ start }} – {{ end }}</div>
+    <div class="timeline-item">
+      <div class="timeline-head">
+        <div class="timeline-role">{{ role }} — {{ company }}</div>
+        <div class="timeline-years">{{ start }} – {{ end }}</div>
       </div>
-      <ul class="list-disc pl-5 mt-2 text-sm text-sub">
+      <ul class="timeline-bullets">
         <li *ngFor="let b of bullets">{{ b }}</li>
       </ul>
     </div>
-  `
+  `,
+  styleUrl: './timeline-item.component.scss'
 })
 export class TimelineItemComponent {
   @Input() role = '';
