@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Project One",
+    "summary": "Short, concrete value statement.",
+    "tags": ["Branding", "Web"],
+    "year": "2025",
+    "image": "assets/images/p1.jpg",
+    "link": "https://example.com"
+  },
+  {
+    "title": "Project Two",
+    "summary": "...",
+    "tags": ["UI", "Accessibility"],
+    "year": "2024",
+    "image": "assets/images/p2.jpg"
+  }
+]
+
+

@@ -1,0 +1,12 @@
+{
+  "summary": "Concise 3–4 sentence professional profile.",
+  "experience": [
+    {"company":"Company A","role":"Title","start":"2022","end":"Present","bullets":["Impact metric 1","Impact metric 2"]},
+    {"company":"Company B","role":"Title","start":"2020","end":"2022","bullets":["..."]}
+  ],
+  "skills": ["Angular","TypeScript","Accessibility","Design Systems"],
+  "education": [{"school":"University","degree":"BSc","year":"2019"}],
+  "awards": [{"title":"Award Name","year":"2023"}]
+}
+
+
