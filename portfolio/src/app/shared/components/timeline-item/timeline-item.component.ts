@@ -1,8 +1,10 @@
 import { Component, Input } from '@angular/core';
+import { NgForOf } from '@angular/common';
 
 @Component({
   selector: 'app-timeline-item',
   standalone: true,
+  imports: [NgForOf],
   template: `
     <div class="timeline-item">
       <div class="timeline-head">
@@ -14,7 +16,7 @@ import { Component, Input } from '@angular/core';
       </ul>
     </div>
   `,
-  styleUrl: './timeline-item.component.scss'
+  styleUrl: './timeline-item.component.scss',
 })
 export class TimelineItemComponent {
   @Input() role = '';
@@ -23,5 +25,3 @@ export class TimelineItemComponent {
   @Input() end = '';
   @Input() bullets: string[] = [];
 }
-
-
