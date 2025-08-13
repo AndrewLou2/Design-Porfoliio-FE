@@ -21,9 +21,6 @@ import { ContentService } from '../../shared/services/content.service';
           loading="lazy"
         />
       </div>
-      <div class="intro-locales" [@fadeUp] *ngIf="vm$ | async as vm3">
-        <p class="intro-locales-text">{{ vm3.locationsNote }}</p>
-      </div>
       <div class="intro-title" [@fadeUp] *ngIf="vm$ | async as vm4">
         <h1 class="intro-wordmark">{{ vm4.name }}</h1>
       </div>
