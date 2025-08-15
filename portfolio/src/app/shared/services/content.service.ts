@@ -9,6 +9,7 @@ export interface Profile {
   locationsNote: string;
   portrait: string;
   email: string;
+  phone?: string;
   social: { label: string; href: string }[];
 }
 
@@ -19,23 +20,48 @@ export interface ProjectItem {
   year: string;
   image: string;
   link?: string;
+  organization?: string;
+  duration?: string;
 }
 
 export interface ResumeData {
   summary: string;
-  experience: { company: string; role: string; start: string; end: string; bullets: string[] }[];
+  experience: {
+    company: string;
+    role: string;
+    location?: string;
+    start: string;
+    end: string;
+    bullets: string[];
+  }[];
   skills: string[];
-  education: { school: string; degree: string; year: string }[];
-  awards: { title: string; year: string }[];
+  education: {
+    school: string;
+    degree: string;
+    location?: string;
+    year: string;
+    gpa?: string;
+    details?: string;
+  }[];
+  awards: {
+    title: string;
+    year: string;
+    description?: string;
+  }[];
+  relevantCoursework?: string[];
 }
 
 @Injectable({ providedIn: 'root' })
 export class ContentService {
   private http = inject(HttpClient);
 
-  profile$: Observable<Profile> = this.http.get<Profile>('assets/content/profile.json').pipe(shareReplay(1));
-  projects$: Observable<ProjectItem[]> = this.http.get<ProjectItem[]>('assets/content/projects.json').pipe(shareReplay(1));
-  resume$: Observable<ResumeData> = this.http.get<ResumeData>('assets/content/resume.json').pipe(shareReplay(1));
+  profile$: Observable<Profile> = this.http
+    .get<Profile>('assets/content/profile.json')
+    .pipe(shareReplay(1));
+  projects$: Observable<ProjectItem[]> = this.http
+    .get<ProjectItem[]>('assets/content/projects.json')
+    .pipe(shareReplay(1));
+  resume$: Observable<ResumeData> = this.http
+    .get<ResumeData>('assets/content/resume.json')
+    .pipe(shareReplay(1));
 }
-
-

@@ -22,6 +22,9 @@
 .project-title { font-weight: 600; text-decoration-thickness: 1px; text-underline-offset: 4px; }
 .project-card:hover .project-title { text-decoration: underline; }
 .project-year { font-size: 12px; color: var(--sub); }
+.project-meta { display: flex; flex-direction: column; gap: 0.125rem; margin-top: 0.25rem; }
+.project-organization { font-size: 11px; color: var(--sub); font-weight: 500; }
+.project-duration { font-size: 10px; color: var(--sub); }
 .project-summary { font-size: 14px; color: var(--sub); margin-top: 0.25rem; }
 .project-tags { display: flex; flex-wrap: wrap; gap: 0.25rem; margin-top: 0.5rem; }
 .project-tag { font-size: 11px; padding: 0.125rem 0.5rem; border-radius: 999px; background: #f9f9f9; border: 1px solid var(--line); }

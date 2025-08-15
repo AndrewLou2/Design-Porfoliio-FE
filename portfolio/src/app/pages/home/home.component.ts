@@ -40,8 +40,8 @@ import { FooterComponent } from '../../components/footer/footer.component';
     <main class="main-wrap">
       <div class="canvas content-wrap" [@pageFade]>
         <app-intro id="intro"></app-intro>
-        <app-resume id="resume"></app-resume>
         <app-projects id="projects"></app-projects>
+        <app-resume id="resume"></app-resume>
         <app-footer id="footer"></app-footer>
       </div>
     </main>

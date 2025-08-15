@@ -48,6 +48,14 @@ import { FilterProjectsPipe } from '../../shared/pipes/filter-projects.pipe';
               <h3 class="project-title">{{ p.title }}</h3>
               <span class="project-year">{{ p.year }}</span>
             </div>
+            <div class="project-meta" *ngIf="p.organization || p.duration">
+              <span class="project-organization" *ngIf="p.organization">{{
+                p.organization
+              }}</span>
+              <span class="project-duration" *ngIf="p.duration">{{
+                p.duration
+              }}</span>
+            </div>
             <p class="project-summary">{{ p.summary }}</p>
             <div class="project-tags">
               <span class="project-tag" *ngFor="let t of p.tags">{{ t }}</span>

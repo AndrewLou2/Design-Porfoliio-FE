@@ -10,9 +10,17 @@ import { ContentService } from '../../shared/services/content.service';
     <footer class="site-footer" *ngIf="vm$ | async as vm">
       <div class="footer-grid">
         <div class="footer-left">
-          <a class="footer-email" [href]="'mailto:' + vm.email">{{
-            vm.email
-          }}</a>
+          <div class="footer-contact">
+            <a class="footer-email" [href]="'mailto:' + vm.email">{{
+              vm.email
+            }}</a>
+            <a
+              *ngIf="vm.phone"
+              class="footer-phone"
+              [href]="'tel:' + vm.phone"
+              >{{ vm.phone }}</a
+            >
+          </div>
           <div class="footer-social">
             <a
               class="footer-social-link"

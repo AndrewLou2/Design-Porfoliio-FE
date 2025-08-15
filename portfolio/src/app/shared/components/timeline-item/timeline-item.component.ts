@@ -9,7 +9,10 @@ import { NgForOf } from '@angular/common';
     <div class="timeline-item">
       <div class="timeline-head">
         <div class="timeline-role">{{ role }} — {{ company }}</div>
-        <div class="timeline-years">{{ start }} – {{ end }}</div>
+        <div class="timeline-meta">
+          <span class="timeline-years">{{ start }} – {{ end }}</span>
+          <span *ngIf="location" class="timeline-location">{{ location }}</span>
+        </div>
       </div>
       <ul class="timeline-bullets">
         <li *ngFor="let b of bullets">{{ b }}</li>
@@ -23,5 +26,6 @@ export class TimelineItemComponent {
   @Input() company = '';
   @Input() start = '';
   @Input() end = '';
+  @Input() location = '';
   @Input() bullets: string[] = [];
 }

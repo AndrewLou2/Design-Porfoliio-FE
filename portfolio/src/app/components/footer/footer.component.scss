@@ -8,7 +8,9 @@
 .footer-right { grid-column: span 12; display: flex; align-items: flex-end; }
 @media (min-width: 768px) { .footer-right { grid-column: span 6; justify-content: flex-end; } }
 
+.footer-contact { display: flex; flex-direction: column; gap: 0.25rem; }
 .footer-email { font-size: 14px; text-decoration: underline; text-underline-offset: 4px; }
+.footer-phone { font-size: 14px; text-decoration: underline; text-underline-offset: 4px; }
 .footer-social { margin-top: 0.75rem; display: flex; gap: 1rem; }
 .footer-social-link { font-variant: small-caps; font-size: 12px; color: rgba(17,17,17,0.7); text-decoration: none; }
 .footer-social-link:hover { color: #111; }

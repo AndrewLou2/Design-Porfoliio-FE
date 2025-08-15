@@ -1,18 +1,39 @@
 [
   {
-    "title": "Project One",
-    "summary": "Short, concrete value statement.",
-    "tags": ["Branding", "Web"],
-    "year": "2025",
+    "title": "Ventilation Validation CNNs",
+    "summary": "Developed an image processing pipeline using deep neural networks with Python and scikit-learn that provides efficient evaluation of lung health for clinical practices. Implemented multi-center datasets to address network sensitivity to varied training data.",
+    "tags": ["Python", "MATLAB", "Pandas", "Deep Learning", "Medical Imaging"],
+    "year": "2024",
     "image": "assets/images/p1.jpg",
-    "link": "https://example.com"
+    "organization": "Robarts Research",
+    "duration": "May 2024 – August 2024"
   },
   {
-    "title": "Project Two",
-    "summary": "...",
-    "tags": ["UI", "Accessibility"],
+    "title": "Meal Buddy AI",
+    "summary": "Built a cross-platform React Native recipe-recommendation app with Hugging Face Transformers model integration for personalization. Implemented camera system with barcode scanning to pull recipe data via REST API.",
+    "tags": ["React Native", "Express.js", "Node.js", "MongoDB", "Python", "AI/ML"],
     "year": "2024",
-    "image": "assets/images/p2.jpg"
+    "image": "assets/images/p2.jpg",
+    "organization": "Capstone Project",
+    "duration": "September 2023 – May 2024"
+  },
+  {
+    "title": "Accessibility Compliance Framework",
+    "summary": "Expanded automated WCAG 2.2 compliance auditing framework, increasing rule coverage by 240% and achieving 95% remediation automation across 800K+ web pages. Integrated CMS support for WordPress, Drupal, and TYPO3.",
+    "tags": ["TypeScript", "React", "Accessibility", "WCAG", "Automation"],
+    "year": "2024",
+    "image": "assets/images/p1.jpg",
+    "organization": "YuJa",
+    "duration": "September 2024 – Present"
+  },
+  {
+    "title": "Policy Engine Microservice",
+    "summary": "Built and deployed dynamic content governance microservice, cutting manual moderation by 80% and supporting 10+ rule types. Integrated AWS services (S3, SQS, SES) for high-availability systems.",
+    "tags": ["Microservices", "AWS", "Node.js", "Express.js", "MySQL"],
+    "year": "2024",
+    "image": "assets/images/p2.jpg",
+    "organization": "YuJa",
+    "duration": "September 2024 – Present"
   }
 ]
 

@@ -1,13 +1,14 @@
 {
   "name": "ANDREW LOU",
-  "tagline": "A bespoke approach to branding for brands that dare to be different.",
-  "locationsNote": "Brands supported around the world — France, Switzerland, United States, Senegal, Madagascar, Côte d’Ivoire",
+  "tagline": "Software Engineer passionate about building scalable full-stack applications and innovative solutions.",
+  "locationsNote": "Based in Toronto, Ontario — Available for remote opportunities worldwide",
   "portrait": "assets/images/portrait.jpg",
-  "email": "you@example.com",
+  "email": "louandrew123@gmail.com",
+  "phone": "+1-226-582-3393",
   "social": [
-    { "label": "LinkedIn", "href": "https://..." },
-    { "label": "GitHub", "href": "https://..." },
-    { "label": "Dribbble", "href": "https://..." }
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/andrew-lou" },
+    { "label": "GitHub", "href": "https://github.com/andrewlou2" },
+    { "label": "Portfolio", "href": "https://andrewlou2.github.io/portfoliofrontend/" }
   ]
 }
 

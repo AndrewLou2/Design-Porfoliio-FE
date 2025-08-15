@@ -15,7 +15,6 @@ import { RouterLink } from '@angular/router';
             <a class="nav-link" href="#intro">Home</a>
             <a class="nav-link" href="#projects">Projects</a>
             <a class="nav-link" href="#resume">About</a>
-            <a class="nav-link" href="#footer">Contact</a>
           </nav>
           <button class="menu-button" (click)="toggleMobile()">Menu</button>
         </div>
@@ -31,9 +30,6 @@ import { RouterLink } from '@angular/router';
           >Projects</a
         >
         <a class="drawer-link" href="#resume" (click)="toggleMobile()">About</a>
-        <a class="drawer-link" href="#footer" (click)="toggleMobile()"
-          >Contact</a
-        >
       </div>
     </header>
   `,
