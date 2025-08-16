@@ -24,7 +24,7 @@ import { ContentService } from '../../shared/services/content.service';
               [company]="e.company"
               [start]="e.start"
               [end]="e.end"
-              [location]="e.location"
+              [location]="e.location ?? ''"
               [bullets]="e.bullets"
             ></app-timeline-item>
           </div>

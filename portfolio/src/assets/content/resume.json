@@ -37,6 +37,28 @@
         "Enhanced search, sorting, and collection efficiency for vehicle data by architecting and implementing 14 full-stack features using Java, MySQL, Spring Boot, and GWT, significantly boosting overall system performance",
         "Optimized data organization by setting up and deploying a feature that queries mutually inclusive data across multiple projects using Angular and Java, leading to more efficient data management for users"
       ]
+    },
+    {
+      "company": "Sunstang Solar Car Project",
+      "role": "Project Team Lead",
+      "location": "London, Ontario, Canada",
+      "start": "October 2021",
+      "end": "May 2022",
+      "bullets": [
+        "Coordinated a team of 12 engineering students for the steering wheel and the chase car telemetry project"
+      ]
+    },
+    {
+      "company": "Magna International",
+      "role": "CAD/CAM Engineer Intern",
+      "location": "Tianjin, China",
+      "start": "July 2019",
+      "end": "August 2019",
+      "bullets": [
+        "Generated engineering drawings per automotive tooling standards using SolidWorks and AutoCAD",
+        "Performed updates to existing designs using SMIRT, CIMCO, PowerMILL and Tebis Programming",
+        "Utilized SolidWorks to conceptualize, design, and improve tool and die pressing processes"
+      ]
     }
   ],
   "skills": [
