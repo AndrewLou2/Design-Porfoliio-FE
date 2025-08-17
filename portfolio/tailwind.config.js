@@ -18,8 +18,9 @@ module.exports = {
         bgwarm: '#F3F1EB'
       },
       fontFamily: {
-        display: ['"Space Grotesk"', 'Inter', 'system-ui', 'sans-serif'],
-        sans: ['Inter', 'system-ui', 'sans-serif']
+        display: ['var(--font-geist-sans)'],
+        sans: ['var(--font-geist-sans)'],
+        mono: ['var(--font-geist-mono)']
       },
       boxShadow: {
         soft: '0 8px 30px rgba(0,0,0,0.06)'

@@ -13,26 +13,11 @@ import { FilterProjectsPipe } from '../../shared/pipes/filter-projects.pipe';
   template: `
     <section class="projects">
       <h2 class="projects-title">Projects</h2>
-      <div class="projects-filters">
-        <button class="filter-pill" (click)="clearFilters()">All</button>
-        <ng-container *ngFor="let tag of tags">
-          <button class="filter-pill" (click)="toggleTag(tag)">
-            {{ tag }}
-          </button>
-        </ng-container>
-        <ng-container *ngFor="let year of years">
-          <button class="filter-pill" (click)="toggleYear(year)">
-            {{ year }}
-          </button>
-        </ng-container>
-      </div>
 
       <div class="projects-grid">
         <a
           *ngFor="
-            let p of content.projects$
-              | async
-              | filterProjects : activeTags : activeYears;
+            let p of content.projects$ | async | filterProjects : [] : [];
             trackBy: track
           "
           [href]="p.link || '#'"
@@ -69,43 +54,6 @@ import { FilterProjectsPipe } from '../../shared/pipes/filter-projects.pipe';
 })
 export class ProjectsSectionComponent {
   content = inject(ContentService);
-
-  tags: string[] = [];
-  years: string[] = [];
-  activeTags = signal<string[]>([]);
-  activeYears = signal<string[]>([]);
-
-  constructor() {
-    this.content.projects$.subscribe((list) => {
-      const tagSet = new Set<string>();
-      const yearSet = new Set<string>();
-      list.forEach((p) => {
-        p.tags?.forEach((t) => tagSet.add(t));
-        if (p.year) yearSet.add(p.year);
-      });
-      this.tags = Array.from(tagSet);
-      this.years = Array.from(yearSet).sort((a, b) => b.localeCompare(a));
-    });
-  }
-
-  toggleTag(tag: string) {
-    const next = new Set(this.activeTags());
-    if (next.has(tag)) next.delete(tag);
-    else next.add(tag);
-    this.activeTags.set(Array.from(next));
-  }
-
-  toggleYear(year: string) {
-    const next = new Set(this.activeYears());
-    if (next.has(year)) next.delete(year);
-    else next.add(year);
-    this.activeYears.set(Array.from(next));
-  }
-
-  clearFilters() {
-    this.activeTags.set([]);
-    this.activeYears.set([]);
-  }
 
   track = (_: number, p: ProjectItem) => p.title;
 }

@@ -14,26 +14,32 @@
     "tags": ["React Native", "Express.js", "Node.js", "MongoDB", "Python", "AI/ML"],
     "year": "2024",
     "image": "assets/images/p2.jpg",
+    "link": "https://drive.google.com/file/d/1UlBdTBSrrWe2h4-Du-r28krLFwpg_MBd/view",
     "organization": "Capstone Project",
     "duration": "September 2023 – May 2024"
   },
   {
-    "title": "Accessibility Compliance Framework",
-    "summary": "Expanded automated WCAG 2.2 compliance auditing framework, increasing rule coverage by 240% and achieving 95% remediation automation across 800K+ web pages. Integrated CMS support for WordPress, Drupal, and TYPO3.",
-    "tags": ["TypeScript", "React", "Accessibility", "WCAG", "Automation"],
+    "title": "Personal Portfolio Website",
+    "summary": "A full-stack, fully-responsive personal portfolio website show-casing myself",
+    "tags": ["Angular", "TypeScript", "Tailwind", "Frontend", "Full Stack"],
     "year": "2024",
     "image": "assets/images/p1.jpg",
-    "organization": "YuJa",
-    "duration": "September 2024 – Present"
+    "link": "https://andrewlou2.github.io/Portfolio-Demo/"
   },
   {
-    "title": "Policy Engine Microservice",
-    "summary": "Built and deployed dynamic content governance microservice, cutting manual moderation by 80% and supporting 10+ rule types. Integrated AWS services (S3, SQS, SES) for high-availability systems.",
-    "tags": ["Microservices", "AWS", "Node.js", "Express.js", "MySQL"],
+    "title": "Discord Server Bot",
+    "summary": "A fun interactive discord bot that provides 140+ users with a unique experience",
+    "tags": ["Node.js", "Discord.js", "Bots"],
     "year": "2024",
     "image": "assets/images/p2.jpg",
-    "organization": "YuJa",
-    "duration": "September 2024 – Present"
+    "link": "https://github.com/AndrewLou2/BirrBot-Discord"
+  },
+  {
+    "title": "OS Chat Room App",
+    "summary": "Multi-user multi-transaction application that implements concepts of thread synchronization (semaphores), multithreading and socket programming",
+    "tags": ["C", "Sockets", "Concurrency", "Semaphores"],
+    "year": "2023",
+    "image": "assets/images/p1.jpg"
   }
 ]
 
