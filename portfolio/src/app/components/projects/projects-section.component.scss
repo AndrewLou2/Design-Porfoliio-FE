@@ -14,9 +14,8 @@
 @media (min-width: 768px) { .projects-grid { grid-template-columns: 1fr 1fr; } }
 
 .project-card { display: block; background: #fff; border-radius: 16px; box-shadow: 0 8px 30px rgba(0,0,0,0.06); overflow: hidden; border: 1px solid var(--line); text-decoration: none; }
-.project-media { overflow: hidden; }
-.project-img { width: 100%; aspect-ratio: 4/3; object-fit: cover; transition: transform 300ms; }
-.project-card:hover .project-img { transform: scale(1.02); }
+.project-media { overflow: hidden; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; background: #fff; }
+.project-img { width: 100%; height: 100%; object-fit: contain; }
 .project-body { padding: 1rem; }
 .project-head { display: flex; align-items: center; justify-content: space-between; }
 .project-title { font-weight: 600; text-decoration-thickness: 1px; text-underline-offset: 4px; }

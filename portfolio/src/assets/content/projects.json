@@ -1,10 +1,18 @@
 [
   {
+    "title": "Student RAG ChatBot",
+    "summary": "A Python app to query and chat with your PDFs (e.g., assignments, textbooks) using Retrieval-Augmented Generation (RAG) powered by Ollama. Ideal for students seeking instant, AI-based explanations grounded in their own study materials.",
+    "tags": ["Python", "RAG", "Ollama", "LangChain", "Embeddings", "Vector DB"],
+    "year": "2025",
+    "image": "assets/images/project_rag.png",
+    "link": "https://github.com/AndrewLou2/Student-RAG-ChatBot"
+  },
+  {
     "title": "Ventilation Validation CNNs",
     "summary": "Developed an image processing pipeline using deep neural networks with Python and scikit-learn that provides efficient evaluation of lung health for clinical practices. Implemented multi-center datasets to address network sensitivity to varied training data.",
     "tags": ["Python", "MATLAB", "Pandas", "Deep Learning", "Medical Imaging"],
     "year": "2024",
-    "image": "assets/images/p1.jpg",
+    "image": "assets/images/project_CNN.png",
     "organization": "Robarts Research",
     "duration": "May 2024 – August 2024"
   },
@@ -13,7 +21,7 @@
     "summary": "Built a cross-platform React Native recipe-recommendation app with Hugging Face Transformers model integration for personalization. Implemented camera system with barcode scanning to pull recipe data via REST API.",
     "tags": ["React Native", "Express.js", "Node.js", "MongoDB", "Python", "AI/ML"],
     "year": "2024",
-    "image": "assets/images/p2.jpg",
+    "image": "assets/images/project_meal_buddy.png",
     "link": "https://drive.google.com/file/d/1UlBdTBSrrWe2h4-Du-r28krLFwpg_MBd/view",
     "organization": "Capstone Project",
     "duration": "September 2023 – May 2024"
@@ -23,7 +31,7 @@
     "summary": "A full-stack, fully-responsive personal portfolio website show-casing myself",
     "tags": ["Angular", "TypeScript", "Tailwind", "Frontend", "Full Stack"],
     "year": "2024",
-    "image": "assets/images/p1.jpg",
+    "image": "assets/images/project_portfolio.png",
     "link": "https://andrewlou2.github.io/Portfolio-Demo/"
   },
   {
@@ -31,7 +39,7 @@
     "summary": "A fun interactive discord bot that provides 140+ users with a unique experience",
     "tags": ["Node.js", "Discord.js", "Bots"],
     "year": "2024",
-    "image": "assets/images/p2.jpg",
+    "image": "assets/images/project_discord.png",
     "link": "https://github.com/AndrewLou2/BirrBot-Discord"
   },
   {
@@ -39,7 +47,7 @@
     "summary": "Multi-user multi-transaction application that implements concepts of thread synchronization (semaphores), multithreading and socket programming",
     "tags": ["C", "Sockets", "Concurrency", "Semaphores"],
     "year": "2023",
-    "image": "assets/images/p1.jpg"
+    "image": "assets/images/project_os.png"
   }
 ]
 
