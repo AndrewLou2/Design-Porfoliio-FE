@@ -1,5 +1,12 @@
 [
   {
+    "title": "AI Memory Tracker (Chrome Extension)",
+    "summary": "Know exactly what ChatGPT remembers. AI Memory Tracker visualizes the current context window on chatgpt.com, shows the exact ‘Start of Context’ and the first omitted message, and gives quick actions to navigate or copy the relevant text.",
+    "tags": ["JavaScript", "Chrome Extension", "Browser APIs", "Frontend"],
+    "year": "2025",
+    "image": "assets/images/project_ai_memory.png"
+  },
+  {
     "title": "Student RAG ChatBot",
     "summary": "A Python app to query and chat with your PDFs (e.g., assignments, textbooks) using Retrieval-Augmented Generation (RAG) powered by Ollama. Ideal for students seeking instant, AI-based explanations grounded in their own study materials.",
     "tags": ["Python", "RAG", "Ollama", "LangChain", "Embeddings", "Vector DB"],
@@ -41,13 +48,6 @@
     "year": "2024",
     "image": "assets/images/project_discord.png",
     "link": "https://github.com/AndrewLou2/BirrBot-Discord"
-  },
-  {
-    "title": "OS Chat Room App",
-    "summary": "Multi-user multi-transaction application that implements concepts of thread synchronization (semaphores), multithreading and socket programming",
-    "tags": ["C", "Sockets", "Concurrency", "Semaphores"],
-    "year": "2023",
-    "image": "assets/images/project_os.png"
   }
 ]
 
