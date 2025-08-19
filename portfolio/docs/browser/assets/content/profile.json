@@ -1,0 +1,15 @@
+{
+  "name": "ANDREW LOU",
+  "tagline": "Software Engineer :)",
+  "locationsNote": "Based in Toronto, Ontario",
+  "portrait": "assets/images/portrait.png",
+  "email": "louandrew123@gmail.com",
+  "phone": "+1-226-582-3393",
+  "social": [
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/andrew-lou" },
+    { "label": "GitHub", "href": "https://github.com/andrewlou2" },
+    { "label": "Portfolio", "href": "https://andrewlou2.github.io/portfoliofrontend/" }
+  ]
+}
+
+

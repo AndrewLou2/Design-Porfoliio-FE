@@ -1,0 +1,94 @@
+{
+  "summary": "Software Engineer with 2+ years of experience building scalable full-stack applications.",
+  "experience": [
+    {
+      "company": "YuJa",
+      "role": "Software Design and Development Engineer",
+      "location": "Toronto, Ontario",
+      "start": "September 2024",
+      "end": "Present",
+      "bullets": [
+        "Architected and implemented scalable full-stack applications using React, TypeScript, Node.js, Next.js, Express.js, and MySQL within Agile development cycles",
+        "Expanded an automated accessibility compliance auditing framework (WCAG 2.2), increasing rule coverage by 240% and achieving 95% remediation automation across 800K+ web pages",
+        "Collaborated with clients to define requirements and engineered a SharePoint website crawling feature, generating $120K in business revenue",
+        "Built and deployed a policy engine microservice for dynamic content governance, cutting manual moderation by 80% and supporting 10+ rule types",
+        "Implemented CMS integration support for WordPress, Drupal, and TYPO3 to enable automated accessibility, SEO, and performance scanning and remediation across diverse ecosystems",
+        "Integrated AWS services (S3, SQS, SES) to support high-availability systems, and optimized database performance by fine-tuning indexes and query structures, reducing response times by 30%"
+      ]
+    },
+    {
+      "company": "Godwise International",
+      "role": "Software Developer (Contract)",
+      "location": "Remote",
+      "start": "September 2023",
+      "end": "August 2024",
+      "bullets": [
+        "Built a full-stack task management system within the internal ERP platform using Java Spring Boot and PostgreSQL; supported task workflows for over 12,000 users accelerating report generation",
+        "Designed and deployed over 25 RESTful APIs using Spring MVC and Spring Data JPA to support core business operations, enabling seamless integration across internal services and reducing cross-team data request time by 60%"
+      ]
+    },
+    {
+      "company": "J.D. Power",
+      "role": "Software Developer Intern",
+      "location": "London, Ontario",
+      "start": "May 2022",
+      "end": "August 2023",
+      "bullets": [
+        "Enhanced search, sorting, and collection efficiency for vehicle data by architecting and implementing 14 full-stack features using Java, MySQL, Spring Boot, and GWT, significantly boosting overall system performance",
+        "Optimized data organization by setting up and deploying a feature that queries mutually inclusive data across multiple projects using Angular and Java, leading to more efficient data management for users"
+      ]
+    },
+    {
+      "company": "Sunstang Solar Car Project",
+      "role": "Project Team Lead",
+      "location": "London, Ontario, Canada",
+      "start": "October 2021",
+      "end": "May 2022",
+      "bullets": [
+        "Coordinated a team of 12 engineering students for the steering wheel and the chase car telemetry project"
+      ]
+    },
+    {
+      "company": "Magna International",
+      "role": "CAD/CAM Engineer Intern",
+      "location": "Tianjin, China",
+      "start": "July 2019",
+      "end": "August 2019",
+      "bullets": [
+        "Generated engineering drawings per automotive tooling standards using SolidWorks and AutoCAD",
+        "Performed updates to existing designs using SMIRT, CIMCO, PowerMILL and Tebis Programming",
+        "Utilized SolidWorks to conceptualize, design, and improve tool and die pressing processes"
+      ]
+    }
+  ],
+  "skills": [
+    "TypeScript", "Java", "Python", "C#", "SQL", "MySQL", "JavaScript", "HTML", "CSS",
+    "React", "Angular", "Node.js", "Express.js", "Next.js", "Spring Boot", "Django",
+    "Docker", "Kubernetes", "AWS", "Azure", "Google Cloud", "Git", "Jira", "CI/CD",
+    "RESTful APIs", "NoSQL", "Bootstrap", "GWT"
+  ],
+  "education": [
+    {
+      "school": "Western University",
+      "degree": "Bachelor of Engineering Science in Software Engineering with Co-op",
+      "location": "London, Ontario",
+      "year": "2019-2024",
+      "gpa": "3.7/4.0",
+      "details": "Dean's Honor List: 2019-2024"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dean's Honor List",
+      "year": "2019-2024",
+      "description": "Consistent academic excellence at Western University"
+    }
+  ],
+  "relevantCoursework": [
+    "Data Structures and Algorithms", "Cloud Computing", "Software Testing", 
+    "Database Systems", "Software Engineering Design", "Web Technologies", 
+    "Networking", "Operating Systems", "The Ethical Engineer"
+  ]
+}
+
+
